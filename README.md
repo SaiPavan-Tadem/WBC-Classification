@@ -42,7 +42,7 @@ False Classified|445|222|222|470|
 Accuracy |11|65.2|55.6|6.7|
 ## Conclusions
 
-Accuracy of the classification majorly depends on the dataset also.This dataset is not perfectly balanced,Please find few samples from netrophil and monocyte datasets,the dont actually looks like their own domin.Not only that while labling single image is assigned with multi class in given [label set](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/labels.csv).So this is also effects the accuracy.
+The classification accuracy of Lymphocyte and monocyte is good.Accuracy of the classification majorly depends on the dataset also.This dataset is not perfectly balanced,Please find few samples from netrophil and monocyte datasets,the dont actually looks like their own domin.Not only that while labling single image is assigned with multi class in given [label set](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/labels.csv).So this is also effects the accuracy.
 class|Eosinophil|Monocyte|Netrophil|
 |---|---|---|---|
 dummy Images|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Dummy%20data%20samples/dummy_Eosinophil.jpg)|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Dummy%20data%20samples/Monocyte_dummy.jpg)|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Dummy%20data%20samples/dummy_Neutrophil.jpg)|
