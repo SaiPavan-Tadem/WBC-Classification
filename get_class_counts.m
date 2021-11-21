@@ -1,20 +1,28 @@
-function [N, M, E, L] = get_class_counts(img_dir,mean_features)
+function count = get_class_counts(img_dir,mean_features)
     srcDir = img_dir;
     srcFiles = dir(fullfile(srcDir,'*.jpeg'));
+    count = zeros(1,4);
     for k=1:numel(srcFiles)
-        filename = fullfile(srcDir,srcFiles(k).name)
+        filename = fullfile(srcDir,srcFiles(k).name);
         I = imread(filename);
-        pred = predict_class(I,mean_features)
-        N=0;M=0;E=0;L=0;
+        pred = predict_class(I,mean_features);
         if pred == 1
-            N=N+1;
+            count(1) = count(1) + 1;
+            
+            
         elseif pred == 2
-            M=M+1;
+            count(2) = count(2) +1;
+           
+           
         elseif pred == 3
-            E=E+1;
+             count(3) = count(3) +1;
+             
+          
         elseif pred == 4
-            L=L+1;
-       end
+            count(4) = count(4) +1;
+             
+           
+        end
+        
     end
-    return;
 end
