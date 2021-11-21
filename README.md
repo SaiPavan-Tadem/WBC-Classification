@@ -3,7 +3,7 @@
 Collect the data set from [kaggle](https://www.kaggle.com/paultimothymooney/blood-cells)
 Class|Eosinophil|Lymphocyte|Monocyte|Neutrophol|
 ---|---|---|---|---|
-Image-1|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Image%20Samples/Eosinophil%20(1).jpg)|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Image%20Samples/Lymphocyte%20(1).jpg)|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Image%20Samples/Monocyte%20(1).jpg)|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Image%20Samples/Neutrophil%20(1).jpg)|
+Images|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Image%20Samples/Eosinophil%20(1).jpg)|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Image%20Samples/Lymphocyte%20(1).jpg)|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Image%20Samples/Monocyte%20(1).jpg)|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Image%20Samples/Neutrophil%20(1).jpg)|
  size of dataset|623 |620 |620 | 624 |
 
 The basic differnce between all four classes is total number of nuclie in each cell.Monocyte and lyphote have single nuclie but shapes are different,Monocyte looks like bean
@@ -30,22 +30,22 @@ Out of several methods like GLCM,Entropy,contrast,and between different feature 
 ### Cosine Similarity Measure
 To classify the image,here I used cosine simlarity as a measure,which basically returns maximum value for closer vectors.
 ![equation](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/cosine-similarity.png)
-For more details about similarity measure look into the [code]()
+For more details about similarity measure look into the code
 <br>
 
 ## Results
 Class|Eosinophil|Lymphocyte|Monocyte|Neutrophil|
 |---|---|---|---|---|
-Test Images Images|600 |600 |600 |600  |
-True Classified| | | | |
-False Classified| | | | |
-Accuracy| | | | | |
+Test Images Images|500 |500 |500 |500  |
+True Classified|55|326|278 |30|
+False Classified|445|222|222|470|
+Accuracy |11|65.2|55.6|6.7|
 ## Conclusions
 
 Accuracy of the classification majorly depends on the dataset also.This dataset is not perfectly balanced,Please find few samples from netrophil and monocyte datasets,the dont actually looks like their own domin.Not only that while labling single image is assigned with multi class in given [label set](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/labels.csv).So this is also effects the accuracy.
-class|Eosinophil|Lymphocyte|Monocyte|Netrophil|
-|---|---|---|---|---|
-dummy Images|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Dummy%20data%20samples/dummy_Eosinophil.jpg)|![Alt Text]()|![Alt Text]()|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Dummy%20data%20samples/dummy_Neutrophil.jpg)
+class|Eosinophil|Monocyte|Netrophil|
+|---|---|---|---|
+dummy Images|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Dummy%20data%20samples/dummy_Eosinophil.jpg)|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Dummy%20data%20samples/Monocyte_dummy.jpg)|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Dummy%20data%20samples/dummy_Neutrophil.jpg)|
 
 
 
