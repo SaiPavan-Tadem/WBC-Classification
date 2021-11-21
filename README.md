@@ -12,7 +12,7 @@ Image-1|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/ma
 Class|Eosinophil|Lymphocyte|Monocyte|Neutrophol|
 |---|---|---|---|---|
 HSV Image|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Segmentation%20Images/E-HSV.jpg)|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Segmentation%20Images/L-HSV.jpg)|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Segmentation%20Images/M-HSV.jpg)|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Segmentation%20Images/N-HSV.jpg)|
-HSV plane 2|a|a|a|a|
+HSV plane 2|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Segmentation%20Images/HSV-2-E.jpg)|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Segmentation%20Images/HSV-2-L.jpg)|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Segmentation%20Images/HSV-2-M.jpg)|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Segmentation%20Images/HSV-2-N.jpg)|
 segment image|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Segmentation%20Images/BW-E.jpg)|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Segmentation%20Images/BW-L.jpg) |![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Segmentation%20Images/BW-M.jpg)|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Segmentation%20Images/BW-N.jpg)|
 ## Results
 Class|Eosinophil|Lymphocyte|Monocyte|Neutrophol|
