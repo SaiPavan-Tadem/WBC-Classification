@@ -3,7 +3,7 @@
 Collect the data set from [kaggle](https://www.kaggle.com/paultimothymooney/blood-cells)
 Class|Eosinophil|Lymphocyte|Monocyte|Neutrophol|
 ---|---|---|---|---|
-Image-1|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Image%20Samples/Eosinophil%20(1).jpeg)|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Image%20Samples/Lymphocyte%20(1).jpeg)|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Image%20Samples/Monocyte%20(1).jpeg)|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Image%20Samples/Neutrophil%20(1).jpeg)|
+Image-1|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Image%20Samples/Eosinophil%20(1).jpg)|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Image%20Samples/Lymphocyte%20(1).jpg)|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Image%20Samples/Monocyte%20(1).jpg)|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Image%20Samples/Neutrophil%20(1).jpg)|
  size of dataset|623 |620 |620 | 624 |
 
 The basic differnce between all four classes is total number of nuclie in each cell.Monocyte and lyphote have single nuclie but shapes are different,Monocyte looks like bean
