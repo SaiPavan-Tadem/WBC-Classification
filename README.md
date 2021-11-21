@@ -10,10 +10,10 @@ The basic differnce between all four classes is total number of nuclie in each c
 and lyphocyte looks like a circle.Eosinophil and Neutrophil have 2 and 3 nuclie respectively.
 <br>
 ## Task
-Class|Eosinophil|Lymphocyte|Monocyte|Neutrophol|
-|---|---|---|---|---|
-HSV Image|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/HSV%20Images/E-HSV.jpg|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/HSV%20Images/L-HSV.jpg)|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/HSV%20Images/M-HSV.jpg)|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/HSV%20Images/N-HSV.jpg)|
-segment image|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/HSV%20Images/HSV-2-E.jpg)|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/HSV%20Images/HSV-2-L.jpg) |![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/HSV%20Images/HSV-2-M.jpg)|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/HSV%20Images/HSV-2-N.jpg)|
+Class|Eosinophil|Lymphocyte|Monocyte|Neutrophol|Task
+|---|---|---|---|---|---|
+HSV Image|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/HSV%20Images/E-HSV.jpg)|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/HSV%20Images/L-HSV.jpg)|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/HSV%20Images/M-HSV.jpg)|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/HSV%20Images/N-HSV.jpg)|
+HSV saturation plane|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/HSV%20Images/HSV-2-E.jpg)|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/HSV%20Images/HSV-2-L.jpg) |![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/HSV%20Images/HSV-2-M.jpg)|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/HSV%20Images/HSV-2-N.jpg)|
 ## Results
 Class|Eosinophil|Lymphocyte|Monocyte|Neutrophil|
 |---|---|---|---|---|
@@ -21,11 +21,11 @@ Test Images Images|600 |600 |600 |600  |
 True Classified| | | | |
 False Classified| | | | |
 Accuracy| | | | | |
-## conclusions
+## Dataset
 Accuracy of the classification majorly depends on the dataset also.This dataset is not perfectly balanced,Please find few samples from netrophil and monocyte datasets,the dont actually looks like their own domin.Not only that while labling single image is assigned with multi class in given [label set](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/labels.csv).So this is also effects the accuracy.
 class|Eosinophil|Lymphocyte|Monocyte|Netrophil|
 |---|---|---|---|---|
-dummy Images|![Alt Text]()|![Alt Text]()|![Alt Text]()|![Alt Text]()
+dummy Images|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Dummy%20data%20samples/dummy_Eosinophil.jpg)|![Alt Text]()|![Alt Text]()|![Alt Text](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/Dummy%20data%20samples/dummy_Neutrophil.jpg)
 
 
 
