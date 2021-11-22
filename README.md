@@ -36,10 +36,8 @@ For more details about similarity measure look into the code
 ## Results
 Class|Eosinophil|Lymphocyte|Monocyte|Neutrophil|
 |---|---|---|---|---|
-Test Images Images|500 |500 |500 |500  |
-True Classified|55|326|278 |30|
-False Classified|445|222|222|470|
-Accuracy |11|65.2|55.6|6.7|
+number of test Images |250 |250 |250 |250  |
+Accuracy |34|88.50|81.|30.90|
 ## Conclusions
 
 The classification accuracy of Lymphocyte and monocyte is good.Accuracy of the classification majorly depends on the dataset also.This dataset is not perfectly balanced,Please find few samples from netrophil and monocyte datasets,the dont actually looks like their own domin.Not only that while labling single image is assigned with multi class in given [label set](https://github.com/SaiPavan-Tadem/WBC-Classification/blob/main/labels.csv).So this is also effects the accuracy.
